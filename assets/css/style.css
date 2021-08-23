@@ -120,16 +120,15 @@ html {
     padding: 5px 30px;
     color: #fff;
     border-radius: 50px;
-    position: absolute;
+    position: center;
     line-height: 30px;
-    margin: 5px 30px;
+    margin: 5px 0px;
     opacity: 0;
     transition: all 0.3s ease;
-    transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .wrapper ul li a:after {
-    position: absolute;
+    position: center;
     content: "";
     background: #fff;
     width: 100%;
@@ -142,12 +141,14 @@ html {
     transition: transform 0.3s ease;
 }
 
-.wrapper ul li a:hover:after {
-    transform: scaleY(1);
+.discord-btn:hover {
+    color: #471ae8;
+    transition: .2s;
 }
 
-.wrapper ul li a:hover {
-    color: #471ae8;
+.youtube-btn:hover {
+    color: red;
+    transition: .2s;
 }
 
 input[type="checkbox"] {
