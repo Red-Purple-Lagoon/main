@@ -13,6 +13,15 @@ html {
     animation-direction: alternate;
 }
 
+.radius {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+
+
 .wrapper {
     position: fixed;
     top: 0;
@@ -233,9 +242,16 @@ input[type="checkbox"] {
     overflow: hidden;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 102%;
     top: 0;
-    margin-top: -10px;
+    margin-top: -7px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+   /* box-shadow: 0 0 10px 10px #282b30; вот это место*/
+
 }
 
 .photo .glow {
